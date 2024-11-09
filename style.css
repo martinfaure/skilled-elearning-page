@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.bbox{
+    margin-top: 75px;
+}
+
+nav:last-child {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.button1 {
+  margin-left: auto;
+  background-color: #13183f;
+  color: white;
+  border-radius: 28px;
+  padding: 15px;
+  border: none;
+}
+
+.button1:hover{
+    background-color: #666CA3;
+}
+
+.bbox {
+  display: flex;
+}
+
+.box1 {
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 25%;
+}
+.box2 {
+  margin-left: auto;
+  margin-right: 150px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 158.5px;
+  background-image: center/cover;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+.p-1 {
+  color: #83869a;
+  margin-top: 25px;
+}
+
+.button2 {
+  color: white;
+  border-radius: 28px;
+  padding: 15px;
+  border: none;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  margin-top: 25px;
+}
+
+.button2:hover{
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));;
+}
+
+
+.bboxgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-auto-rows: 200px;
+    width: 55%;
+    gap: 100px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.bboxgrid-child1{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 100%;
+    width: 125%;
+    height: 125%;
+}
+
+.bboxgrid-child{
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    width: 125%;
+    height: 125%;
+}
+
+.p-2{
+margin-top: 25px;
+color: #83869A;
+
+}
+
+.bboxgrid-child button{
+ border: none;
+ background: none;
+ color: #F74780;
+ margin-top: 30px;
+}
+
+.bboxgrid-child button:hover{
+    color:  #FFA7C3;
+
+}
+
+main{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+.bboxgridd{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+footer{
+    background: var(--color-blue-900, #13183F);
+}
+
+footer button{
+    display: flex;
+    color: white;
+    border-radius: 28px;
+    padding: 15px;
+    border: none;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+.footer button:hover{
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%),
+linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+
+}
+
+footer img{
+    margin-left: 150px;
+    margin-top: 30px;
+}
